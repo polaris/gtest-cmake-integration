@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
 TEST(Foo, Bar) {
-    
+    ASSERT_TRUE(1 == 2);
 }
 
 int main(int argc, char **argv) {
