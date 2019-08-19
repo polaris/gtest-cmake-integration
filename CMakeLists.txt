@@ -6,7 +6,14 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(test main.cpp)
+add_executable(test
+    Client.cpp
+    Client.h
+    ClientTest.cpp
+    Interface.h
+    main.cpp
+    MockInterface.h
+)
 
 target_include_directories(test PRIVATE
     "googletest/googletest/include"
