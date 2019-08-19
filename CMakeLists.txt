@@ -10,6 +10,7 @@ add_executable(test
     Client.cpp
     Client.h
     ClientTest.cpp
+    FactorialTest.cpp
     Interface.h
     main.cpp
     MockInterface.h
